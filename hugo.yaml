@@ -28,6 +28,7 @@ taxonomies:
 
 
 
+
 params:
   profileMode:
     enabled: false
