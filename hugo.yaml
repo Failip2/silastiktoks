@@ -44,15 +44,9 @@ params:
     # so both raw HTML and short-codes work.
     Content: |
       <br>
-      <video controls style="max-width:40%">
-        <source src="/video/1.mov" type="video/mp4">
-      </video>
-      <video controls style="max-width:40%">
-        <source src="/video/2.mov" type="video/mp4">
-      </video>
-      <video controls style="max-width:50%">
-        <source src="/video/3.mov" type="video/mp4">
-      </video>
+      {{< youtube 55BIsRLz3Oo >}}
+      {{< youtube QJ6sv0xwWEQ >}}
+      {{< youtube S4SN0sjha8Q >}}
 
 outputs:
   home:
