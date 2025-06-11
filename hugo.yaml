@@ -75,3 +75,7 @@ menu:
 #      name: example.org
 #      url: https://example.org
 #      weight: 30
+
+caches:
+  images:
+    dir: :cacheDir/images
