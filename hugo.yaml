@@ -37,6 +37,11 @@ params:
     imageTitle: "Foto af Filip Raeburn" # optional
     imageWidth: 300 # custom size
     imageHeight: 300 # custom size
+
+  driveGallery:
+    enabled: true
+    folderId: "1JIakvBBLKLbCA1M1jaCUOjiQmEJolW-r"
+    title: "Billeder fra Google Drive"
     
   homeInfoParams:
     Title: "Silas' TikToks"
@@ -48,6 +53,7 @@ params:
       {{< youtube QJ6sv0xwWEQ >}}
       {{< youtube S4SN0sjha8Q >}}
       {{< youtube 7eTRunaGcP4 >}}
+
 
 outputs:
   home:
